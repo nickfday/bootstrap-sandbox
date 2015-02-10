@@ -1,35 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      <?php include 'includes/header.php';?>
-      
-      <?php
-      
-      if(isset($_GET['page'])) {
-        $page = htmlentities($_GET['page']);
-        ?> <h2><?php echo $page;?></h2>
-        <?php
-        } else {
-        $page = NULL;
+<?php include 'includes/header.php';?>
+<?php
+  if(isset($_GET['page'])) {
+    $page = htmlentities($_GET['page']);?>
+    <h2 style="margin-top:60px;"><?php echo $page;?></h2>
+    <?php } 
+    else {
+      $page = NULL;
     }
 ?>
+    <?php 
+    function my_function($foo) {
+      if ($foo > 12) {
+        return "good evening";
+      }
+      elseif ($foo == 10) {
+        return "its 10";
+      }
+      else {
+        return "good morn";
+      }
+    }
+    $greet = my_function(10);
+    
+    echo "$greet";
+    
+        error_reporting(E_ALL);
         
+   function test()
+  {
+  $foo = "Declared inside the function. <br />";
+  $bar = "Also declared inside the function. <br />";
+  return array($foo,$bar);
+  }
+  //list($one,$two) = test();
+  $array = test();
+  $foo = $array[0];
+  $bar = $array[1];
+/*
+* Notices are issued that $foo and $bar are undefined
+*/
+echo $foo, $bar;
+
+
+print_r($_SERVER);
+
+    
+    ?>
         <form action="form.php" method="post">
           <input type="text" name="username" />
           <input type="text" name="email" />

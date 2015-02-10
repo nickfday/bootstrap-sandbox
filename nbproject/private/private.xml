@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/nickf/sandbox/www/default/wordpress/index.php</file>
-            <file>file:/home/nickf/sandbox/www/default/wordpress/includes/header.php</file>
-            <file>file:/home/nickf/sandbox/www/default/wordpress/includes/footer.php</file>
-            <file>file:/home/nickf/sandbox/www/default/wordpress/form.php</file>
+            <file>file:/home/nickf/personal_projects/sandbox/www/default/portfolio/index.php</file>
+            <file>file:/home/nickf/personal_projects/sandbox/www/default/portfolio/sass/partials/_misc.scss</file>
+            <file>file:/home/nickf/personal_projects/sandbox/www/default/portfolio/Gruntfile.js</file>
+            <file>file:/home/nickf/personal_projects/sandbox/www/default/portfolio/includes/header.php</file>
+            <file>file:/home/nickf/personal_projects/sandbox/www/default/portfolio/sass/style.scss</file>
+            <file>file:/home/nickf/personal_projects/sandbox/www/default/portfolio/includes/footer.php</file>
         </group>
     </open-files>
 </project-private>
