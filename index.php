@@ -1,4 +1,5 @@
 <?php include 'includes/header.php';?>
+
 <?php
   if(isset($_GET['page'])) {
     $page = htmlentities($_GET['page']);?>
@@ -25,6 +26,8 @@
     echo "$greet";
     
         error_reporting(E_ALL);
+
+
         
    function test()
   {
@@ -42,10 +45,13 @@
 echo $foo, $bar;
 
 
-print_r($_SERVER);
 
     
     ?>
+
+    </div>
+    </div>
+    </div>
         <form action="form.php" method="post">
           <input type="text" name="username" />
           <input type="text" name="email" />
