@@ -11,3 +11,18 @@ and open the template in the editor.
 @import "compass";
 
 @import "partials/misc";
+
+/* Required to hold the caption, or any closest parent selector to  .slide__caption */
+.slide {
+  position: relative;
+}
+
+.slide__caption {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: #000;
+  color: #fff;
+}

@@ -1,17 +1,33 @@
 {
-  "projects": [{
+  "projects": [
+    {
       "title": "Open2Study",
       "location": "Australia",
-      "screen-shot": "screen-shot-open2Study-tablet.jpg"
+      "screenShot": "http://vasyabigi.github.io/angular-slick/images/lazyfonz1.png"
     },
     {
       "title": "OpenTraining",
       "location": "Australia",
-      "screen-shot": "screen-shot-open2Study-tablet.jpg"
+      "screenShot": "http://vasyabigi.github.io/angular-slick/images/lazyfonz2.png"
     },
     {
       "title": "Foosle",
       "location": "UK",
-      "screen-shot": "screen-shot-open2Study-tablet.jpg"
+      "screenShot": "http://vasyabigi.github.io/angular-slick/images/lazyfonz3.png"
+    },
+    {
+      "title": "Open2Study",
+      "location": "Australia",
+      "screenShot": "http://vasyabigi.github.io/angular-slick/images/lazyfonz1.png"
+    },
+    {
+      "title": "OpenTraining",
+      "location": "Australia",
+      "screenShot": "http://vasyabigi.github.io/angular-slick/images/lazyfonz2.png"
+    },
+    {
+      "title": "Foosle",
+      "location": "UK",
+      "screenShot": "http://vasyabigi.github.io/angular-slick/images/lazyfonz3.png"
     }
   ]}
