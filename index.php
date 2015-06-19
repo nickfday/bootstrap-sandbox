@@ -47,6 +47,11 @@
       <p>Project Location:</p>
     </div>
 
+    <div ng-show="selectedTest != null">
+      <div class="well well-large">{{selectedTest.title}}</div>
+      <div class="well well-large">{{selectedTest.location}}</div>
+    </div>
+
     <div class="col-sm-12">
       <h2>Projects</h2>
       <slick dots=true infinite=false speed=300 slides-to-show=3 touch-move=false slides-to-scroll=1>
