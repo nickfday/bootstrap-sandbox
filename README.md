@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bootstrap for Sass [![Gem Version](https://badge.fury.io/rb/bootstrap-sass.svg)](http://badge.fury.io/rb/bootstrap-sass) [![Bower Version](https://badge.fury.io/bo/bootstrap-sass.svg)](http://badge.fury.io/bo/bootstrap-sass) [![Build Status](http://img.shields.io/travis/twbs/bootstrap-sass.svg)](http://travis-ci.org/twbs/bootstrap-sass)
 
 `bootstrap-sass` is a Sass-powered version of [Bootstrap](http://github.com/twbs/bootstrap), ready to drop right into your Sass powered applications.
@@ -328,3 +329,6 @@ Michael Hartl's [Rails Tutorial](http://railstutorial.org/), [gitlabhq](http://g
 [sass-precision]: http://sass-lang.com/documentation/Sass/Script/Number.html#precision-class_method
 [mincer]: https://github.com/nodeca/mincer
 [autoprefixer]: https://github.com/ai/autoprefixer
+=======
+# bootstrap-sandbox
+>>>>>>> 7a5ce47effe54ac3ce68af425d24237609961b1d
